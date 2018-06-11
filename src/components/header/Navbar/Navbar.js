@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Icon } from "@blueprintjs/core"
 
 const Nav = styled.div`
   display: flex;
@@ -19,11 +20,23 @@ const NavElement = styled.span`
   padding-right: 15px;
 `
 
+const Avatar = styled.img`
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+`
+
 function Navbar() {
   return (
     <Nav>
       <div>
-        <img src='static/company_logo.png' style={{ paddingTop: 2 }} />
+        <img
+          src='static/company_logo.png'
+          style={{ paddingTop: 2 }}
+          alt='company logo'
+        />
       </div>
       <div>
         <NavElement>
@@ -31,9 +44,18 @@ function Navbar() {
         </NavElement>
         <NavElement>
           Browse
+          <Icon icon='caret-down' />
         </NavElement>
         <NavElement>
           Search
+        </NavElement>
+        <NavElement style={{ textTransform: 'none' }}>
+          <Avatar
+            src='static/rebecca_black.png'
+            alt='It`s Friday, Friday, Friday'
+          />
+          My Account
+          <Icon icon='caret-down' />
         </NavElement>
       </div>
     </Nav>
