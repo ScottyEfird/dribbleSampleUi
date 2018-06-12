@@ -49,7 +49,7 @@ function SearchBar() {
         type='button'
         placeholder='Search'
       >
-          Search
+        Search
       </Search>
     </Bar>
   )
