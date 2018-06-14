@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentBox from '../../ContentBox'
-import WidgetHeader from '../../WidgetHeader'
+import WidgetHeader from '../WidgetHeader'
 
 function Fliter() {
   return (

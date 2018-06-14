@@ -27,8 +27,8 @@ function WidgetHeader({left, right}) {
 }
 
 WidgetHeader.propTypes = {
-  left: PropTypes.string,
-  right: PropTypes.string,
+  left: PropTypes.any,
+  right: PropTypes.any,
 }
 
 export default WidgetHeader
