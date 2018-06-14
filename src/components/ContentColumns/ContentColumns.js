@@ -24,7 +24,6 @@ const ContentColumns = styled.div`
 
   .right {
     order: 3;
-    background: yellow;
     flex-basis: 600px;
     height: 800px;
   }

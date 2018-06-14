@@ -11,6 +11,8 @@ import PayRate from './components/widgets/PayRate'
 import Experience from './components/widgets/Experience'
 import Countries from './components/widgets/Countries'
 import JobsContainer from './components/JobsContainer'
+import FigitSpinnerBox from './components/FigitSpinnerBox'
+import Blog from './components/Blog'
 import './App.css'
 
 function App() {
@@ -34,7 +36,9 @@ function App() {
           <JobsContainer />
         </div>
         <div className='right'>
-          3
+          <FigitSpinnerBox />
+          <Blog title={'TOP JOBS'}/>
+          <Blog title={'MOST VIEWED THIS WEEK'}/>
         </div>
       </ContentColumns>
     </div>
