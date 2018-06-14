@@ -10,6 +10,7 @@ import Job from './components/widgets/Job'
 import PayRate from './components/widgets/PayRate'
 import Experience from './components/widgets/Experience'
 import Countries from './components/widgets/Countries'
+import JobsContainer from './components/JobsContainer'
 import './App.css'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         </div>
         <div className='middle'>
           <JobsHeader />
+          <JobsContainer />
         </div>
         <div className='right'>
           3
