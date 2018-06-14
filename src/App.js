@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from './components/header/Navbar'
-import SearchBar from './components/header/SearchBar'
+import Navbar from './components/headers/Navbar'
+import SearchBar from './components/headers/SearchBar'
+import JobsHeader from './components/headers/JobsHeader'
 import ContentColumns from './components/ContentColumns'
 import Filter from './components/widgets/Filter'
 import SkillBox from './components/widgets/SkillBox'
@@ -28,7 +29,7 @@ function App() {
           <SkillBox header={'Languages'} values={['English']} />
         </div>
         <div className='middle'>
-          2
+          <JobsHeader />
         </div>
         <div className='right'>
           3

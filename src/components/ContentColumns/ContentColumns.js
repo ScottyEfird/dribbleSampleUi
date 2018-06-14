@@ -16,9 +16,10 @@ const ContentColumns = styled.div`
 
   .middle {
     order: 2;
-    background: green;
+    background: white;
     flex-basis: 100%;
-    height: 800px;
+    height: auto;
+    box-shadow: 0 3px 3px #dbdbdb;
   }
 
   .right {
