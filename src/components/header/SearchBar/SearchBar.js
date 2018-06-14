@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Bar = styled.div`
+  margin: 25px;
   display: flex;
   align-items: center;
   padding-top: 20px;

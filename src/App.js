@@ -1,40 +1,28 @@
 import React from 'react'
-import styled from 'styled-components'
 import Navbar from './components/header/Navbar'
 import SearchBar from './components/header/SearchBar'
+import ContentColumns from './components/ContentColumns'
+import Filter from './components/widget/Filter'
+import Skills from './components/widget/Skills'
 import './App.css'
-
-const Rows = styled.div`  
-  display: flex;
-  flex-wrap: wrap;
-`
-
-const MainRow = styled.div`  
-@include flex(1 10em);
-@include order(2);
-`
-
-const SideRow = styled.div`  
-@include flex(20em);
-@include order(1);
-`
 
 function App() {
   return (
     <div>
       <Navbar />
       <SearchBar />
-      <Rows>
-        <SideRow>
-          1
-        </SideRow>
-        <MainRow>
+      <ContentColumns>
+        <div className='left'>
+          <Filter />
+          <Skills />
+        </div>
+        <div className='middle'>
           2
-        </MainRow>
-        <SideRow>
+        </div>
+        <div className='right'>
           3
-        </SideRow>
-      </Rows>
+        </div>
+      </ContentColumns>
     </div>
   )
 }
