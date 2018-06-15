@@ -1,12 +1,11 @@
-# Coding Challange
-
-## Only tested in Chrome. 
+# Coding Challange 
 
 Things I'd add if I had more time:
-- Jest for unit tests
-- Style Component Library
+- Jest for unit tests 🎉
+- Style Component Library 💅
 - Mobile Components (Ie, return custom components on smaller screen sizes)
-- General CSS clean up
+- General CSS clean up 💪
+- A cool webserver to GET from
 
 The guidelines asked for a server with query support (for filtering), full CRUD endpoints and that the design is followed exactly. Unfortunately, working full time I lack the time to do all that you've asked. Instead I've hacked out an awesome basic template of your UI. I'd take a look at my other repos for more examples of work I've done. 
 
@@ -24,6 +23,8 @@ Note: Must have Node installed.
 > yarn install
 > yarn start
 ```
+
+![Example gif](./screenshot.PNG)
 
 
 ## Packages used
