@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import ContentBox from '../ContentBox'
+
+const ContentBox = styled.div`
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+`
 
 const Box = styled.div`
   padding-top: 30px;
