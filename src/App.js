@@ -12,6 +12,7 @@ import Experience from './components/widgets/Experience'
 import Countries from './components/widgets/Countries'
 import JobsContainer from './components/JobsContainer'
 import FigitSpinnerBox from './components/FigitSpinnerBox'
+import Fooder from './components/Fooder'
 import Blog from './components/Blog'
 import './App.css'
 
@@ -41,6 +42,7 @@ function App() {
           <Blog title={'MOST VIEWED THIS WEEK'}/>
         </div>
       </ContentColumns>
+      <Fooder />
     </div>
   )
 }
